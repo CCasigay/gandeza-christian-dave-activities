@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/register.js"></script>
+    <title>Login Form</title>
+</head>
+<body>
+<div class="login-container">
+    <center>
+        <h2>Register</h2>
+        <p id="error" style="color:rgb(232, 50, 50)"></p>
+        </center>
+    <form>
+        <div class="form-group">
+            <label class="labelStyle" for="username">Username:</label>
+            <input type="text" id="username" class="inputStyle" placeholder="Enter new username">
+        </div>
+        <div class="form-group">
+            <label class="labelStyle" for="name">Name:</label>
+            <input type="text" id="name" class="inputStyle" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label class="labelStyle" for="password">Password:</label>
+            <input type="password" id="password" class="inputStyle" placeholder="Enter new password">
+        </div>
+        <div class="form-group">
+            <label class="labelStyle" for="gender">Gender:</label>
+            <select id="gender" class="inputStyle">
+                <option class="option" value="male">Male</option>
+                <option class="option" value="female">Female</option>
+                <option class="option" value="other">Other</option>
+            </select>
+        </div>
+
+        <button type="button" class="buttonStyle" onclick="register()">Register</button>
+    </form>
+    <div class="register-container">
+         <a href="simple_login.html">Already Registered?</a></p>
+    </div>
+</div>
+</body>
+</html>

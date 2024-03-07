@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../image/a6361d7827f4ef58ae749ec0940adf91.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 240, 0.439);
+    box-shadow: 0px 0px 10px 0px rgba(255, 0, 234, 0.619);
+    color:pink;
+}
+
+
+.labelStyle {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+.inputStyle {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid pink;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.buttonStyle {
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+    background-color: deeppink;
+}
+.Forgot:link{
+    font-size: small;
+    font-style: none;
+    color: blue;
+}
+.Forgot:hover{
+    font-size: small;
+    font-style: none;
+    background-color: pink;
+}
+.Forgot:visited{
+    font-size: small;
+    font-style: none;
+    color:pink;
+    background-color: deeppink;
+}
+.Forgot:active{
+    font-size: small;
+    font-style: none;
+    color: deepskyblue;
+    background-color: blue;
+}
+
+.Register:link{
+    font-size: small;
+    font-style: none;
+    color:deeppink;
+}
+.Register:hover{
+    font-size: small;
+    font-style: none;
+    color:palegreen;
+}
+.Register:active{
+    font-size: small;
+    font-style: none;
+    color:fuchsia;
+}
+.register-container {
+    text-align: center;
+}
+.option {
+    background-color: deeppink;
+}
