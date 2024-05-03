@@ -2,8 +2,8 @@ function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    var real_username = "Cian18";
-    var real_password = "gandeza";
+    var real_username = "Admin";
+    var real_password = "admin123";
 
     if(username === "" || password === "") {
         document.getElementById("error").innerHTML = "All textboxes are required";
